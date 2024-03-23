@@ -1,0 +1,47 @@
+[root@regula ~]# lscpu
+Architecture:            x86_64
+  CPU op-mode(s):        32-bit, 64-bit
+  Address sizes:         48 bits physical, 48 bits virtual
+  Byte Order:            Little Endian
+CPU(s):                  16
+  On-line CPU(s) list:   0-15
+Vendor ID:               AuthenticAMD
+  BIOS Vendor ID:        QEMU
+  Model name:            AMD EPYC 7601 32-Core Processor
+    BIOS Model name:     pc-q35-7.0
+    CPU family:          23
+    Model:               1
+    Thread(s) per core:  1
+    Core(s) per socket:  16
+    Socket(s):           1
+    Stepping:            2
+    BogoMIPS:            4399.99
+    Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext f
+                         xsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2ap
+                         ic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalign
+                         sse 3dnowprefetch osvw perfctr_core ssbd ibpb vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 rdseed adx smap clflushopt
+                          sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr virt_ssbd arat arch_capabilities
+Virtualization features:
+  Hypervisor vendor:     KVM
+  Virtualization type:   full
+Caches (sum of all):
+  L1d:                   1 MiB (16 instances)
+  L1i:                   1 MiB (16 instances)
+  L2:                    8 MiB (16 instances)
+  L3:                    256 MiB (16 instances)
+NUMA:
+  NUMA node(s):          1
+  NUMA node0 CPU(s):     0-15
+Vulnerabilities:
+  Gather data sampling:  Not affected
+  Itlb multihit:         Not affected
+  L1tf:                  Not affected
+  Mds:                   Not affected
+  Meltdown:              Not affected
+  Mmio stale data:       Not affected
+  Retbleed:              Mitigation; untrained return thunk; SMT disabled
+  Spec store bypass:     Mitigation; Speculative Store Bypass disabled via prctl
+  Spectre v1:            Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:            Mitigation; Retpolines, IBPB conditional, STIBP disabled, RSB filling, PBRSB-eIBRS Not affected
+  Srbds:                 Not affected
+  Tsx async abort:       Not affected

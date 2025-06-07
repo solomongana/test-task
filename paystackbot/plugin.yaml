@@ -1,0 +1,7 @@
+id: org.example.paystackbot
+version: 0.1.0
+license: MIT
+modules:
+  - paystackbot
+main_class: PaystackBot
+extra_files: []
